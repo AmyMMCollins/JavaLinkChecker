@@ -1,0 +1,2 @@
+# JavaLinkChecker
+This class reads in a URL from the command line and catches errors if it is a bad URL or not found. If it is a good URL, it makes a HTTP connection to that web page, downloads it and then parses it for links. It then finds all the broken links (ie links which timeout or have a response code of 404 excluding Google and duplicates removing any duplicates) and then displays them in a table in a HTML document.
